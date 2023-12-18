@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Esta página muestra información sobre HTML y CSS">
+    <title>Mi primera página web</title>
+
+   <!--ESTILOS CSS EXTERNO--> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- FONTAWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* AQUÍ SE ESCRIBE LAS POLIICAS DE CSS*/
+    </style>
+    
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="neocenter-computador" width="120"/>
+        </div>
+        <div class="redes-sociales">
+            <span><i class="fab fa-facebook fa-2x"></i> </span>
+            <span><i class="fab fa-twitter-square fa-2x"></i></span>
+            <span><i class="fab fa-instagram fa-2x"></i></span>
+            <span><i class="fab fa-youtube fa-2x"></i></span>
+        </div>
+
+    </header>
+
+    <nav >
+        <ul class="flex-menu">
+            <li class="flex-menu-item"><a href="#">Inicio</a> </li>
+            <li class="flex-menu-item"><a href="productos.html">Productos</a></li>
+            <li class="flex-menu-item"><a href="servicios.html">Servicios</a></li>
+            <li class="flex-menu-item"><a href="contactos.html">Contactos</a></li>
+
+        </ul>
+    </nav>
+
+        <section class="principal">   
+
+           <article class="articulo-item">
+                <div class="image-padre">
+                    <span class="image-item" > <i class="fab fa-html5 fa-5x"></i> </span>
+                </div>
+                <div class="texto-padre">
+                    <h2 class="texto-item">HTML</h2>
+                </div>
+                <p>HTML, el Lenguaje de Marcado de Hipertexto, es un componente esencial en el desarrollo web, actuando como el esqueleto estructural de las páginas en línea. Su acrónimo, que significa "Hypertext Markup Language" en inglés, refleja su función primordial de marcar y estructurar hipertexto. HTML proporciona una jerarquía de elementos, cada uno encerrado entre etiquetas, que definen la presentación y organización del contenido en un documento web. Esta estructura básica se compone de una sección de encabezado (<head>), que contiene metadatos y enlaces a recursos externos, y una sección de cuerpo (<body>), que alberga el contenido visible.</p>
+           </article>      
+           <article class="articulo-item">
+            <div class="image-padre">
+                <span class="image-item" > <i class="fab fa-css3-alt fa-5x"></i> </span>
+            </div>
+            <div class="texto-padre">
+                <h2 class="texto-item">CSS</h2>
+            </div>
+                <p>CSS, o Hojas de Estilo en Cascada (Cascading Style Sheets), es un lenguaje crucial para el diseño web. Trabaja en conjunto con HTML y JavaScript, permitiendo la presentación estilizada de documentos HTML. CSS define el aspecto visual de elementos HTML, controlando propiedades como color, tamaño, márgenes y diseño. Utiliza reglas y selectores para aplicar estilos de manera eficiente, garantizando la coherencia y facilitando la adaptabilidad a diferentes dispositivos. Al separar la estructura del contenido (HTML) de su presentación (CSS), posibilita un desarrollo más mantenible y la creación de interfaces web atractivas y funcionales.</p>
+            </article >
+            <article class="articulo-item">
+            <div class="image-padre">
+                <span class="image-item" > <i class="fab fa-js-square fa-5x"></i> </span>
+            </div>
+            <div class="texto-padre">
+                <h2 class="texto-item">JAVASCRIPT</h2>
+            </div>
+                <p>JavaScript es un lenguaje de programación esencial para el desarrollo web. Ejecutado en navegadores, proporciona interactividad dinámica a páginas HTML y mejora la experiencia del usuario. Como lenguaje del lado del cliente, permite manipular el contenido de la página, responder a eventos y comunicarse con servidores. Su versatilidad se extiende a aplicaciones de servidor a través de Node.js. JavaScript es un pilar fundamental en el desarrollo moderno, facilitando la creación de sitios web interactivos y aplicaciones web progresivas, y es esencial para construir experiencias web ricas y dinámicas en un amplio espectro de plataformas.</p>
+            </article>
+
+        </section>
+        <footer>
+            <br>
+            <ul>Email: info@neocenter.com</ul>
+            <ul>Teléfono: 0991709504</ul>
+            <ul>Dirección: Av. 10 de agosto</ul>
+            <ul>Horario: 08:00 - 18:00</ul>
+        </footer>
+</body>
+</html>
